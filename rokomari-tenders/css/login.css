@@ -1,0 +1,89 @@
+.login-bg-image{
+      background-image: url("../images/login_bg_image.png");
+      min-height: 680px;
+      width: 100%;
+      position: unset !important;
+      background-size: cover;
+      background-repeat: no-repeat;
+}
+.register-bg-image{
+      background-image: url("../images/register-bg-image.png");
+      min-height: 680px;
+      width: 100%;
+      position: unset !important;
+      background-size: cover;
+      background-repeat: no-repeat;
+}
+.login_card_position{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.login_card{
+      background-color: white;
+      border-radius: 4px;
+      width: 40%;
+      display: flex;
+      justify-content: center;
+      padding: 25px 30px;
+      margin-top: 115px;
+}
+.login_sign_in{
+      font-size: 20px;
+      font-weight: 700;
+      color: #0B63E5;
+      text-transform: uppercase;
+}
+.login_form_input{
+      border: 1px solid #979C9E;
+      border-radius: 8px;
+      width: 100%;
+      font-size: 14px;
+      padding: 10px;
+}
+.login_form_input:focus{
+      box-shadow: none;
+}
+.password_bottom_text{
+      font-size: 12px;
+}
+.keep_me_sign{
+      font-size: 15px;
+      color: #979C9E;
+      margin-left: 6px;
+}
+.login_btn{
+      width: 100%;
+      padding: 8px 80px;
+      background-color: #0B63E5;
+      color: white;
+      border: 1px solid #0B63E5;
+      border-radius: 8px;
+      text-align: center;
+}
+.login_btn:hover{
+      color: white !important;
+}
+.forgot_pass{
+      color: #0B63E5;
+      font-weight: 600;
+}
+
+@media only screen and (max-width: 425px) {
+
+      .login_card{
+            background-color: white;
+            border-radius: 4px;
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0px; 
+            margin-top: 15px;
+      }
+      .login-bg-image{
+            min-height: 490px;
+      }
+      .register-bg-image{
+            min-height: 525px;
+      }
+}

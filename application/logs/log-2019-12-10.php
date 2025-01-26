@@ -1,0 +1,37 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2019-12-10 08:52:32 --> 404 Page Not Found: /index
+ERROR - 2019-12-10 10:34:52 --> 404 Page Not Found: /index
+ERROR - 2019-12-10 10:37:08 --> 404 Page Not Found: /index
+ERROR - 2019-12-10 16:01:29 --> 404 Page Not Found: /index
+ERROR - 2019-12-10 16:01:34 --> 404 Page Not Found: /index
+ERROR - 2019-12-10 16:01:38 --> 404 Page Not Found: /index
+ERROR - 2019-12-10 16:01:42 --> 404 Page Not Found: /index
+ERROR - 2019-12-10 16:01:57 --> 404 Page Not Found: /index
+ERROR - 2019-12-10 16:02:09 --> 404 Page Not Found: /index
+ERROR - 2019-12-10 16:02:11 --> 404 Page Not Found: /index
+ERROR - 2019-12-10 16:02:25 --> 404 Page Not Found: /index
+ERROR - 2019-12-10 16:02:32 --> 404 Page Not Found: /index
+ERROR - 2019-12-10 16:02:37 --> 404 Page Not Found: /index
+ERROR - 2019-12-10 16:02:42 --> 404 Page Not Found: /index
+ERROR - 2019-12-10 16:02:46 --> 404 Page Not Found: /index
+ERROR - 2019-12-10 16:02:52 --> 404 Page Not Found: /index
+ERROR - 2019-12-10 16:02:56 --> 404 Page Not Found: /index
+ERROR - 2019-12-10 16:03:00 --> 404 Page Not Found: /index
+ERROR - 2019-12-10 16:03:40 --> 404 Page Not Found: /index
+ERROR - 2019-12-10 16:35:02 --> 404 Page Not Found: /index
+ERROR - 2019-12-10 16:35:05 --> 404 Page Not Found: /index
+ERROR - 2019-12-10 16:35:10 --> 404 Page Not Found: /index
+ERROR - 2019-12-10 16:35:12 --> 404 Page Not Found: /index
+ERROR - 2019-12-10 16:35:15 --> 404 Page Not Found: /index
+ERROR - 2019-12-10 16:35:18 --> 404 Page Not Found: /index
+ERROR - 2019-12-10 16:36:11 --> 404 Page Not Found: /index
+ERROR - 2019-12-10 16:36:22 --> 404 Page Not Found: /index
+ERROR - 2019-12-10 16:36:30 --> 404 Page Not Found: /index
+ERROR - 2019-12-10 16:37:28 --> 404 Page Not Found: /index
+ERROR - 2019-12-10 16:45:35 --> 404 Page Not Found: /index
+ERROR - 2019-12-10 16:46:15 --> 404 Page Not Found: /index
+ERROR - 2019-12-10 16:48:05 --> 404 Page Not Found: ../modules/admin/controllers/Admin/students
+ERROR - 2019-12-10 16:48:10 --> 404 Page Not Found: ../modules/admin/controllers/Admin/students
+ERROR - 2019-12-10 16:48:13 --> 404 Page Not Found: ../modules/admin/controllers/Admin/students
+ERROR - 2019-12-10 16:48:15 --> 404 Page Not Found: ../modules/admin/controllers/Admin/students

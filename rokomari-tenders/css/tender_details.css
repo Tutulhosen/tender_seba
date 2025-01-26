@@ -1,0 +1,46 @@
+.advance_back_button{
+      display: flex;
+      justify-content: space-between;
+}
+.back{
+      font-size: 16px;
+      font-weight: 500;
+      color: #0B63E5;
+      background-color: transparent;
+      border: none;
+      display: flex;
+}
+.tender_details_title{
+      font-size: 18px;
+      font-weight: 500;
+      color: #0B63E5;
+}
+.tender_details_title2{
+      font-size: 18px;
+      font-weight: 500;
+      color: #0B63E5;
+      width: 27%;
+}
+.tender_details_pragrap{
+      font-size: 17px;
+      font-weight: 500;
+      color: #000;
+}
+
+@media only screen and (max-width: 425px) {
+
+      .tender_details_title2{
+            font-size: 15px;
+            font-weight: 500;
+            color: #0B63E5;
+            width: auto;
+      }
+
+      .tender_details_pragrap{
+            font-size: 13px;
+            font-weight: 500;
+            color: #000;
+            padding-left: 5px;
+      }
+
+}

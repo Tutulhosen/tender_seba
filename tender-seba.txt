@@ -1,0 +1,23 @@
+For Admin login:
+
+http://173.212.223.213/tender_seba/
+username: administrator
+password: 12345678
+
+------------------------------------------------------
+
+For Tender Viewer:
+
+http://173.212.223.213/tender_seba/rokomari_tender/
+username: ismail13hossen@gmail.com
+password: 11111111
+
+or anyone can singup with email varification.
+
+Thanks
+
+
+$2y$08$2hBcNCO7dZ/oCoYGbe8NXu0kMiKm44Lob4L8TSlT2SR/CgKGh7DZG
+qrjrzqkbmhjuglyd
+
+ALTER TABLE `ts_web_user` ADD `email_otp` VARCHAR(100) NULL DEFAULT NULL AFTER `activation_code`; 

@@ -1,0 +1,106 @@
+[class^=border]{
+			  display: inline-block;
+			  margin:1em;
+			  width: 500px;
+			  height: 400px;
+			  background-color: #1aa326;
+			  border:15px solid green;
+			}
+
+    	.banner{
+    		background-image: url(".../assets/images/main_banner.jpg");
+    		height: 450px;
+    		background-position: center center; 
+    			}
+    		
+    	.tender{
+    		width: 50%;
+    		height: 200px;
+    		background: green;
+    	}	 
+    	.sm-3{
+    		border-radius: 200px 0px 200px 200px;
+			-moz-border-radius: 200px 0px 200px 200px;
+			-webkit-border-radius: 200px 0px 200px 200px;
+			border: 0px solid #000000;
+
+			-webkit-box-shadow: -1px 6px 3px -4px rgba(51,46,45,1);
+			-moz-box-shadow: -1px 6px 3px -4px rgba(51,46,45,1);
+			box-shadow: -1px 6px 3px -4px rgba(51,46,45,1);
+    	}		
+
+		.content-1 .content-2 .content-3 {
+			-webkit-box-shadow: 2px 6px 0px -5px rgba(163,159,158,1);
+			-moz-box-shadow: 2px 6px 0px -5px rgba(163,159,158,1);
+			box-shadow: 2px 6px 0px -5px rgba(163,159,158,1);
+
+		}	
+
+		.col-xl-3, .col-lg-3, .col-md-12, .col-sm-12, .col-xs-12{
+			padding-right: 5px !important;
+			padding-left: 5px !important;
+		}
+
+		.rt_footer{
+			border-top: 2px solid #8f131a;
+		}
+
+		.abix-tree-list li {
+   		 list-style: none;
+		}
+
+		.abix-tree-list .collapsed span.icon, 
+		.abix-tree-list .expanded span.icon {
+		    margin-right: 6px;
+		    cursor: pointer;
+		}
+
+
+
+
+	@media only screen and (min-width : 320px) and (max-width : 767.98px) {
+		.form-control{
+			margin-bottom: 15px;
+		}
+
+	}
+	@media only screen and (min-width : 320px) and (max-width : 768px) {
+		.content-1{
+			margin-bottom: 15px;
+		}
+	}
+		
+
+	
+
+
+#mySidenav a {
+    position: absolute;
+    left: -60px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#about {
+    top: 190px;
+    background-color: #f44336;
+}
+
+#blog {
+    top: 260px;
+    background-color: #f44336;
+}
+
+#projects {
+    top: 330px;
+    background-color: #f44336;
+}

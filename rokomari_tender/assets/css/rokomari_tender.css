@@ -1,0 +1,17 @@
+.menu_active {
+	display: inline-block;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+
+	padding-left: 1rem!important;
+	padding-right: 1rem!important;
+	padding-bottom: .5rem!important;
+	padding-top: .5rem!important;
+	color: #fff;
+    background-color: #007bff;
+    border-radius: 10rem;
+}

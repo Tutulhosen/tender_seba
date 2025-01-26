@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    
+  <div class="container-fluid">
+    <div class="header">
+        <div class="row">
+            <div class="col-lg-1 col-md-1, col-sm-1, col-xs-2">
+                <img src='logo.png' class="img-responsive">
+            </div>
+            <div class="col-lg-10 col-md-10, col-sm-10, col-xs-8">
+                <h1>জেলা পরিষদ কার্যালয়, নাটোর</h1>
+                <h4>ছাত্র / ছাত্রীর বৃত্তি ফরম </h4>
+            </div>
+            <div class="col-lg-1 col-md-1, col-sm-1, col-xs-2">
+                <a href="" class="btn btn-success login">লগইন </a>
+            </div>
+        </div>
+    </div>
+    <div class="main-section">
+        
+        <div class="row">
+          <div class="col-lg-8 col-md-10, col-sm-12, col-xs-12 col-lg-offset-2 ">
+            <div class="main-content">
+              <h3>ছাত্র / ছাত্রীর বৃত্তি ফরম</h3>
+              <form>
+                  <div class="row">
+                    <div class="col-lg-10 col-md-10, col-sm-8, col-xs-8">
+                      <div class="form-group">
+                        <input type="text" placeholder="ছাত্র / ছাত্রীর নাম"/>
+                      </div>
+                      <div class="form-group">
+                        <input type="text" placeholder="পিতার নাম"/>
+                      </div>
+
+                      <div class="form-group">
+                        <input type="text" placeholder="মাতার নাম"/>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2, col-sm-4, col-xs-4">
+                      <div class="form-group">
+                        <div class='image'><img id="blah" src="icon-user.png" alt="ছবি" class="img-responsive"/></div>
+                        <input type="file" name="filename" accept="image/gif, image/jpeg, image/png" onchange="readURL(this);" placeholder="ছবি">                      
+                      </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6, col-sm-6, col-xs-12">
+                      <div class="form-group">
+                        <input type="text" placeholder="পিতার ন্যাশনাল আইডি নাম্বার"/>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6, col-sm-6, col-xs-12">
+                      <div class="form-group">
+                        <input type="text" placeholder="মাতার ন্যাশনাল আইডি নাম্বার"/>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6, col-sm-6, col-xs-12">
+                      <div class="form-group">
+                        <input type="text" placeholder="মোবাইল নাম্বার"/>                  
+                      </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6, col-sm-6, col-xs-12">
+                      <div class="form-group">
+                        <div class="col-third">
+                          <input type="text" placeholder="দিন"/>
+                        </div>
+                        <div class="col-third">
+                          <input type="text" placeholder="মাস"/>
+                        </div>
+                        <div class="col-third">
+                          <input type="text" placeholder="বছর"/>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12, col-sm-12, col-xs-12">
+                      <table class="table table-bordered">
+                          <colgroup>
+                              <col width="40%">
+                              <col width="15%">
+                              <col width="15%">
+                              <col width="15%">
+                              <col width="15%">
+                          </colgroup>
+                          <!-- <thead>
+                            <tr>
+                              <th>অধ্যয়নরত শিক্ষা প্রতিষ্ঠানের নাম</th>
+                              <th>শ্রেণী</th>
+                              <th>বর্ষ</th>
+                              <th>বিভাগ</th>
+                              <th>ক্রমিক নং</th>
+                            </tr>
+                          </thead> -->
+                          <tbody>
+                            <tr>
+                              <td>
+                                <div class="form-group">
+                                  <input type="text" placeholder="অধ্যয়নরত শিক্ষা প্রতিষ্ঠানের নাম"/>
+                                </div>
+                              </td>
+                              <td>
+                                <div class="form-group">
+                                  <input type="text" placeholder="শ্রেণী"/>
+                                </div>
+                              </td>
+                              <td>
+                                <div class="form-group">
+                                  <input type="text" placeholder="বর্ষ"/>
+                                </div>
+                              </td>
+                              <td>
+                                <div class="form-group">
+                                  <input type="text" placeholder="বিভাগ"/>
+                                </div>
+                              </td>
+                              <td>
+                                <div class="form-group">
+                                  <input type="text" placeholder="ক্রমিক নং"/>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12, col-sm-12, col-xs-12">
+                      <h4>আবেদনকারী ছাত্র / ছাত্রীর বিজ্ঞপ্তিতে উল্লেখিত বছরে পরীক্ষাসমূহের গ্রেড</h4>
+                      <table class="table table-bordered">
+                          <colgroup>
+                              <col width="40%">
+                              <col width="20%">
+                              <col width="20%">
+                              <col width="20%">
+                          </colgroup>
+                          <!-- <thead>
+                            <tr>
+                              <th>পরীক্ষার নাম</th>
+                              <th>পরীক্ষার সন</th>
+                              <th>জিপিএ</th>
+                              <th>মন্তব্য</th>
+                            </tr>
+                          </thead> -->
+                          <tbody>
+                            <tr>
+                              <td>
+                                <div class="form-group">
+                                  <input type="text" placeholder="পরীক্ষার নাম "/>
+                                </div>
+                              </td>
+                              <td>
+                                <div class="form-group">
+                                  <input type="text" placeholder="পরীক্ষার সন"/>
+                                </div>
+                              </td>
+                              <td>
+                                <div class="form-group">
+                                  <input type="text" placeholder="জিপিএ"/>
+                                </div>
+                              </td>
+                              <td>
+                                <div class="form-group">
+                                  <input type="text" placeholder="মন্তব্য"/>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12, col-sm-12, col-xs-12">
+                      <table class="table table-bordered">
+                          <colgroup>
+                              <col width="50%">
+                              <col width="50%">
+                          </colgroup>
+                          <thead>
+                            <tr>
+                              <th class="text-center">আবেদনকারী ছাত্র / ছাত্রীর স্থায়ী ঠিকানা</th>
+                              <th class="text-center">ব ৰ্তমান পত্র যোগাযোগের ঠিকানা</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>
+                                <div class="form-group">
+                                  <input type="text" name="filename" placeholder="গ্রাম/মহল্লা">
+                                </div>
+                                <div class="form-group">
+                                  <input type="text" name="filename" placeholder="ডাকঘর ">
+                                </div>
+                                <div class="form-group">
+                                  <input type="text" name="filename" placeholder="উপজেলা">
+                                </div>
+                                <div class="form-group">
+                                  <input type="text" name="filename" placeholder="জেলা">
+                                </div>
+                              </td>
+                              <td>
+                                <div class="form-group">
+                                  <textarea name="" rows="8" cols="45"></textarea>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                    </div>
+
+                    <div class="col-lg-8 col-md-8, col-sm-8, col-xs-8">
+                      <h4>অভিভাবক লেখাপড়ার ব্যয়ভার সঠিকভাবে বহন করতে সক্ষম কি-না </h4>
+                  </div>
+
+                  <div class="col-lg-4 col-md-4, col-sm-4, col-xs-4">
+                     <div class="form-group">
+                        <input type="radio" name="gender" value="yes" id="gender-male"/>
+                        <label for="gender-male">হ্যাঁ</label>
+                        <input type="radio" name="gender" value="no" id="gender-female"/>
+                        <label for="gender-female">না</label>
+                      </div>
+                  </div>
+
+                  <div class="col-lg-12 col-md-12, col-sm-12, col-xs-12">
+                      <table class="table table-bordered">
+                          <thead>
+                            <tr>
+                              <th class="text-center">এসএসসি / এইচএসসি এর মার্কশিট</th>
+                              <th class="text-center">জন্ম সনদ</th>
+                              <th class="text-center">শিক্ষা প্রতিষ্ঠানের প্রধান/বিভাগীয় প্রধানের মতামত/সুপারিশ</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>
+                                <div class="form-group">
+                                  <input type="file" name="filename">
+                                </div>
+                              </td>
+                              <td>
+                                <div class="form-group">
+                                  <input type="file" name="filename">
+                                </div>
+                              </td>
+                              <td>
+                                <div class="form-group">
+                                  <input type="file" name="filename">
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                    </div>
+                  
+                  <div class="col-lg-12 col-md-12, col-sm-12, col-xs-12">
+                        <div class="form-group">
+                          <input type="checkbox" id="terms"/>
+                          <label for="terms">বিজ্ঞপ্তি ফরমে জারীকৃত শতাবলী অনুসরণ করে আবেদন করতে হবে । </label>
+                        </div>
+                  </div>
+
+                  </div>
+                  <div class="row">
+                      <div class="col-lg-12 col-md-12, col-sm-12, col-xs-12">
+                        
+                          <submit class="btn btn-success sending">দাখিল</submit>
+
+                          <submit class="btn btn-info sending">প্রিভিউ</submit>
+
+                          <a href="" class="btn btn-danger sending">বাতিল</a>
+                        
+                      </div>
+                  </div>
+              </form>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>২০১৭ © জেলা পরিষদ কার্যালয়, নাটোর । কারিগরি সহায়তায় : <a href="http://mysoftheaven.com/" >Mysoftheaven (BD) Ltd.</a></p>
+    </div>
+  </div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src="js/bootstrap-3.1.1.min.js"></script>
+  <script src="js/index.js"></script>
+  <script type="text/javascript">
+      function readURL(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('#blah')
+                    .attr('src', e.target.result)
+                    .width(94)
+                    .height(90);
+            };
+
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+  </script>
+
+  </body>
+</html>
